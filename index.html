@@ -1,0 +1,159 @@
+<html> 
+     <head>
+        <title>INTRODUCTORY</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width =device-width, initial-scale=1">
+         <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+    <section id="banner">
+      
+    </section>
+    
+<div id="sideNav">
+        <nav>
+       <ul>
+           <li><a href="#Myself">MYSELF</a></li>
+           <li><a href="#Parents">FATHER AND MOTHER</a></li>
+           <li><a href="#BSIS">WHY YOU CHOOSE BSIS COURSE</a></li>
+           <li><a href="#SELF">DESCRIBE YOURSELF</a></li>
+           <li><a href="#MOTTO">MOTTO</a></li>
+</ul> 
+</nav>
+ </div>
+<div id="menuBtn">
+        <img src="images/menu.png" id="menu">
+</div>
+        
+ <!--MYSELF-->
+  <Section id="Myself">
+ <div class="title-text">
+     <p>MYSELF</p>
+     <h1>Jackielyn</h1>
+</div>
+      <div class="Myself-box">
+         <div class="Myself">
+            <h1>INTRODUCE</h1>  
+             <div class="Myself-desc">
+                <div clas="Myself-text">
+                <p>Hi everyone, my name is Jackielyn Cabili Silla. I am 20 years old. January 26 2002 is my birthday. I was born in Quezon Province but I have lived here most of my life. I lived at Agham road Quezon city. I am a player of Mobile legends and enjoy playing Ml on my spare time. My strength is i can adopt easily in any type of environment.  I hope to have a wonderful year and get to know each and everyone of you. Thank you.</p> 
+                </div>
+             </div>
+        </div>
+           <div class="Myself-img">
+            <img src="images/me.jpg">  
+          </div>
+      </div>
+    
+ </Section>
+
+<!--FATHER AND MOTHER  -->
+        
+        <section id="Parents">
+ <div class="title-text">
+     <p>PARENTS</p>
+     <h1>Ronald Silla And Emalyn Silla</h1>
+</div> 
+       <div class="parents-box">
+         <div class="Parents">
+            <h1>My Parents</h1>  
+             <div class="parents-desc">
+                <div clas="parents-text">
+                <p>I know how you both loved me unconditionally, sometimes more than you ever loved each other! I grew up seeing the sacrifices you’d made for me solely for my comfort & happiness. I love you both so much and I miss you dad, I know you are in a good place.</p> 
+                </div>
+             </div>
+        </div>
+           <div class="parents-img">
+            <img src="images/parents.jpg">  
+          </div>
+      </div>
+    
+
+        </section>
+        
+    <!--Why you choose Bsis course -->
+        
+        <section id="BSIS">
+ <div class="title-text">
+     <p>BSIS</p>
+     <h1>WHY YOU CHOOSE BSIS COURSE?</h1>
+</div> 
+         <div class="bsis-box">
+         <div class="bsis">
+            <h1>BSIS</h1>  
+             <div class="bsis-desc">
+                <div clas="bsis-text">
+                <p>I chose my course in life because I always enjoy solving problems. I enjoy the technical side of things so IS work fits my life perfectly, Information systems offer you the chance to work with specialized network implementation. It will also support skills of technical proficiency involving desktop, server, and cloud components.</p> 
+                </div>   
+             </div>
+                  <div class="bsis-img">
+            <img src="images/bsis.jpg">  
+          </div>
+             </div>    
+            </div>
+        </section>  
+        
+<!-- DESCRIBE YOURSELF -->     
+        
+         <section id="SELF">
+ <div class="title-text">
+     <p>DESCRIBE</p>
+     <h1>YOURSELF</h1>
+</div> 
+              <div class="self-box">
+         <div class="self">
+            <h1>How would I describe myself as a person?</h1>  
+             <div class="self-desc">
+                <div clas="self-text">
+                <p>I don't know. There is not one thing, that I can exactly say about myself. I don't know who I am. Even though I am the one who knows myself the best, and yet I am here, thinking what I would say about myself. Because there isn't exactly a word, a sentence, that would be enough to describe who I am. I am a complicated person. I will say that I want attention at the time I want to be alone, and I would scream at people to leave me alone when I need them with me. I like myself. But I do not, at the same time. And I don't mind it being that way. </p> 
+                </div>   
+             </div>
+                  <div class="self-img">
+            <img src="images/self.jpg">  
+          </div>
+                  </div>
+             </div>
+        </section>
+        
+ <!-- MOTTO -->         
+      
+      <section id="MOTTO">
+ <div class="title-text">
+     <p>MOTTO</p>
+     <h1>VISSION WITHOUT ACTION IS A DAY DREAM</h1>
+</div> 
+      <div class="motto-img">
+            <img src="images/NICE.jpg">  
+          </div>
+        </section>
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+   
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+           sideNav.style.right = "0";
+            menu.src = "images/close.png"
+        }
+        else{
+            sideNav.style.right = "-250px";
+            menu.src = "images/menu.png";
+        }
+    }
+
+   var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+}); 
+    
+    
+    
+             
+    
+</script>
+    
+    </body>
+</html>
